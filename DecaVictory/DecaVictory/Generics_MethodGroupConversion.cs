@@ -14,6 +14,8 @@ namespace DecaVictory
         //Converter - delegate usage
         //public delegate TOutput Converter<in TInput, out TOutput>(TInput input);
 
+        //Definition: TODO
+
         static double TakeSquareRoot(int x)
         {
             return Math.Sqrt(x);
