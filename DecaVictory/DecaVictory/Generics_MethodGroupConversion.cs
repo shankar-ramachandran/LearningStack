@@ -9,11 +9,16 @@ namespace DecaVictory
     class Generics_MethodGroupConversion
     {
         //C# in Depth 2ed - Listing 3.2 - Page 67
-        //Method Group Conversion
+        //Concept - Method Group Conversion
+
+        //Converter - delegate usage
+        //public delegate TOutput Converter<in TInput, out TOutput>(TInput input);
+
         static double TakeSquareRoot(int x)
         {
             return Math.Sqrt(x);
         }
+
         static void Main(string[] args)
         {
             //Step 1. List Population - Strongly Typed List of Integers
